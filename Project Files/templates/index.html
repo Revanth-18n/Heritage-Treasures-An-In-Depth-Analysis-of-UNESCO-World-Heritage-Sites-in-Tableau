@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UNESCO World Heritage Sites</title>
+
+    <link rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <h1>
+            Heritage Treasures: An In-Depth Analysis of UNESCO World Heritage Sites
+        </h1>
+
+    </header>
+
+    <!-- ================= PROJECT OVERVIEW ================= -->
+
+    <section class="project-overview">
+
+        <div class="container">
+
+            <h2 class="section-heading">
+                UNESCO HERITAGE PROJECT
+            </h2>
+
+            <div class="heading-line"></div>
+
+            <div class="overview-content">
+
+                <div class="overview-text">
+
+                    <p>
+                        The <strong>UNESCO Heritage Project</strong> is dedicated to
+                        identifying, protecting, and preserving cultural and natural
+                        heritage sites around the world. Established in 1972, UNESCO's
+                        mission is to safeguard places of exceptional universal value
+                        through international cooperation and sustainable conservation.
+                    </p>
+
+                    <p>
+                        The UNESCO World Heritage Programme works to identify, protect,
+                        and preserve cultural and natural heritage sites that possess
+                        outstanding universal value. These sites represent humanity's
+                        shared history, traditions, biodiversity, and architectural
+                        achievements. Through international cooperation, UNESCO
+                        encourages countries to safeguard these irreplaceable landmarks
+                        for future generations.
+                    </p>
+
+                    <p>
+                        World Heritage Sites include ancient monuments, historic cities,
+                        archaeological landscapes, forests, mountains, deserts, marine
+                        ecosystems, and other natural wonders. By promoting sustainable
+                        conservation, education, scientific research, and responsible
+                        tourism, UNESCO helps ensure that these remarkable places
+                        continue to inspire people around the world while preserving
+                        their cultural and environmental significance.
+                    </p>
+
+                    <p>
+                        This project presents an interactive analysis of UNESCO World
+                        Heritage Sites using Tableau. It enables users to explore
+                        regional distributions, heritage categories, endangered sites,
+                        geographical patterns, forecasting trends, and country-wise
+                        statistics through interactive dashboards and stories.
+                    </p>
+
+                    <p>
+                        Explore the interactive Tableau Story below to gain deeper
+                        insights into UNESCO World Heritage Sites and understand how
+                        data-driven storytelling contributes to heritage conservation.
+                    </p>
+
+                </div>
+
+                <div class="overview-image">
+
+                    <img src="{{ url_for('static', filename='images/about.webp') }}"
+                        alt="UNESCO Heritage">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= STORY TITLE ================= -->
+
+    <section class="story-title">
+
+        <h2>
+            Interactive Tableau Story
+        </h2>
+
+        <p>
+            Follow the complete journey of UNESCO World Heritage Sites through
+            interactive dashboards, visualizations and story points.
+        </p>
+
+    </section>
+
+    <!-- ================= TABLEAU STORY ================= -->
+
+    <!-- ================= TABLEAU STORY ================= -->
+
+<div class="tableauPlaceholder" id="viz1782979129484" style="position: relative;">
+
+    <noscript>
+        <a href="#">
+            <img
+                alt="Heritage Treasures: An In-Depth Analysis of UNESCO World Heritage Sites"
+                src="https://public.tableau.com/static/images/UN/UNESCOHeritage_17829137760690/Story1/1_rss.png"
+                style="border: none;"
+            />
+        </a>
+    </noscript>
+
+    <object class="tableauViz" style="display: none;">
+
+        <param
+            name="host_url"
+            value="https%3A%2F%2Fpublic.tableau.com%2F"
+        />
+
+        <param
+            name="embed_code_version"
+            value="3"
+        />
+
+        <param
+            name="site_root"
+            value=""
+        />
+
+        <param
+            name="name"
+            value="UNESCOHeritage_17829137760690/Story1"
+        />
+
+        <param
+            name="tabs"
+            value="no"
+        />
+
+        <param
+            name="toolbar"
+            value="yes"
+        />
+
+        <param
+            name="static_image"
+            value="https://public.tableau.com/static/images/UN/UNESCOHeritage_17829137760690/Story1/1.png"
+        />
+
+        <param
+            name="animate_transition"
+            value="yes"
+        />
+
+        <param
+            name="display_static_image"
+            value="yes"
+        />
+
+        <param
+            name="display_spinner"
+            value="yes"
+        />
+
+        <param
+            name="display_overlay"
+            value="yes"
+        />
+
+        <param
+            name="display_count"
+            value="yes"
+        />
+
+        <param
+            name="language"
+            value="en-US"
+        />
+
+        <param
+            name="filter"
+            value="publish=yes"
+        />
+
+    </object>
+
+</div>
+
+<!-- ================= TABLEAU SCRIPT ================= -->
+
+<script type="text/javascript">
+
+    var divElement = document.getElementById("viz1782979129484");
+
+    var vizElement = divElement.getElementsByTagName("object")[0];
+
+    vizElement.style.width = "100%";
+
+    vizElement.style.height = (divElement.offsetWidth * 0.75) + "px";
+
+    var scriptElement = document.createElement("script");
+
+    scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+
+</script>
+
+    <!-- ================= JS ================= -->
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+
+</html>
