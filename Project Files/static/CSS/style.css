@@ -1,0 +1,75 @@
+/* General Page Styling */
+
+body {
+
+    margin:0;
+    padding:0;
+
+    font-family:'Poppins',sans-serif;
+
+    background:linear-gradient(-45deg,
+        #6cdfc8,
+        #2deeee,
+        #2ce5e2,
+        #6dd5fa);
+
+    background-size:400% 400%;
+
+    animation:bgAnimation 15s ease infinite;
+
+}
+
+@keyframes bgAnimation{
+
+    0%{background-position:0% 50%;}
+
+    50%{background-position:100% 50%;}
+
+    100%{background-position:0% 50%;}
+
+}
+
+/* Header */
+
+h1{
+    text-align:center;
+    background:#0B5ED7;
+    color:white;
+    padding:20px;
+    margin:0;
+    font-size:32px;
+}
+
+/* Paragraph */
+
+p{
+    text-align:center;
+    font-size:18px;
+    color:#444;
+}
+
+/* Tableau Container */
+
+.tableauPlaceholder{
+    width:95%;
+    margin:20px auto;
+    border-radius:10px;
+    overflow:hidden;
+    background:white;
+    box-shadow:0px 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Responsive */
+
+@media screen and (max-width:768px){
+
+    h1{
+        font-size:24px;
+        padding:15px;
+    }
+
+    p{
+        font-size:16px;
+    }
+
+}
